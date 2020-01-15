@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/BotFramework-WebChat/06.recomposing-ui/c.smart-display/static/css/main.ee2734b5.chunk.css",
+    "main.js": "/BotFramework-WebChat/06.recomposing-ui/c.smart-display/static/js/main.8eede7ad.chunk.js",
+    "main.js.map": "/BotFramework-WebChat/06.recomposing-ui/c.smart-display/static/js/main.8eede7ad.chunk.js.map",
+    "runtime-main.js": "/BotFramework-WebChat/06.recomposing-ui/c.smart-display/static/js/runtime-main.20ebf76e.js",
+    "runtime-main.js.map": "/BotFramework-WebChat/06.recomposing-ui/c.smart-display/static/js/runtime-main.20ebf76e.js.map",
+    "static/js/2.aa4e9edb.chunk.js": "/BotFramework-WebChat/06.recomposing-ui/c.smart-display/static/js/2.aa4e9edb.chunk.js",
+    "static/js/2.aa4e9edb.chunk.js.map": "/BotFramework-WebChat/06.recomposing-ui/c.smart-display/static/js/2.aa4e9edb.chunk.js.map",
+    "index.html": "/BotFramework-WebChat/06.recomposing-ui/c.smart-display/index.html",
+    "precache-manifest.38e247cc0daf6b6fcb3d35df2b1953eb.js": "/BotFramework-WebChat/06.recomposing-ui/c.smart-display/precache-manifest.38e247cc0daf6b6fcb3d35df2b1953eb.js",
+    "service-worker.js": "/BotFramework-WebChat/06.recomposing-ui/c.smart-display/service-worker.js",
+    "static/css/main.ee2734b5.chunk.css.map": "/BotFramework-WebChat/06.recomposing-ui/c.smart-display/static/css/main.ee2734b5.chunk.css.map",
+    "static/js/2.aa4e9edb.chunk.js.LICENSE": "/BotFramework-WebChat/06.recomposing-ui/c.smart-display/static/js/2.aa4e9edb.chunk.js.LICENSE",
+    "static/media/index.css": "/BotFramework-WebChat/06.recomposing-ui/c.smart-display/static/media/img102.10fc115d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20ebf76e.js",
+    "static/js/2.aa4e9edb.chunk.js",
+    "static/css/main.ee2734b5.chunk.css",
+    "static/js/main.8eede7ad.chunk.js"
+  ]
+}
