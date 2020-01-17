@@ -2,9 +2,13 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 import ImageContent from './ImageContent';
+import DownloadAttachment from './DownloadAttachment';
 
-const ImageAttachment = ({ attachment }) => (
-  <ImageContent alt={attachment.name} src={attachment.thumbnailUrl || attachment.contentUrl} />
+const ImageAttachment = ({ activity, attachment }) => (
+  <div>
+    <ImageContent alt={attachment.name} src={attachment.thumbnailUrl || attachment.contentUrl} />
+    <DownloadAttachment activity={activity} attachment={attachment} />
+  </div>
 );
 
 ImageAttachment.propTypes = {

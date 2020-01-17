@@ -15,17 +15,15 @@ export default function createCoreMiddleware() {
       activity = {},
       activity: { from: { role } } = {},
       attachment,
-      attachment: { contentType, contentUrl, thumbnailUrl } = {}
+      attachment: { contentType, contentUrl } = {}
     }) =>
-      role === 'user' && !/^text\//u.test(contentType) && !thumbnailUrl ? (
-        <UploadAttachment activity={activity} attachment={attachment} />
-      ) : /^audio\//u.test(contentType) ? (
+      /^audio\//u.test(contentType) ? (
         <AudioAttachment activity={activity} attachment={attachment} />
       ) : /^image\//u.test(contentType) ? (
         <ImageAttachment activity={activity} attachment={attachment} />
       ) : /^video\//u.test(contentType) ? (
         <VideoAttachment activity={activity} attachment={attachment} />
-      ) : contentUrl || contentType === 'application/octet-stream' ? (
+      ) : contentUrl ? (
         <DownloadAttachment activity={activity} attachment={attachment} />
       ) : /^text\//u.test(contentType) ? (
         <TextAttachment activity={activity} attachment={attachment} />
